@@ -1,0 +1,198 @@
+/*--------------------------------------------------------*\
+    header
+\*--------------------------------------------------------*/
+
+@media screen and (max-width: 1100px) {
+    #header .header-carousel .cell-1 .image img {
+        max-width: 450px;
+        margin-left: -10px;
+    }
+
+    #header .header-carousel .logo img {
+        width: 60%;
+    }
+
+    #header .header-carousel .cell-1 .logo .text {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 64em) {/* md */
+    #top-menu {
+        display: none;
+    }
+
+    #header .header-carousel .wrapper {
+        background-image: none;
+    }
+
+    #header .header-carousel .logo img {
+        width: 100%;
+    }
+
+    #header .header-carousel .logo .content {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #header .header-carousel .logo .text {
+        padding-top: 30px !important;
+    }
+
+    #header .header-carousel .image {
+        display: none;
+    }
+
+    #header .header-carousel .secondImage {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 48em) {/* sm */
+    #header .countdown_button .btn {
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #header .header-carousel .logo img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    gender
+\*--------------------------------------------------------*/
+
+@media screen and (max-width: 1100px) {
+    #gender .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 48em) {/* sm */
+    #gender {
+        padding-top: 50px;
+    }
+
+    #gender .woman {
+        background: none;
+    }
+
+    #gender .column-1400 {
+        padding: 0;
+    }
+
+    #gender .man {
+        border-bottom: 1px solid black;
+        margin-bottom: 40px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    box-banner
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 64em) {/* md */
+    #box-banner {
+        padding-bottom: 30px;
+        padding-top: 80px;
+    }
+
+    #box-banner .innerTitle {
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    big-g
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 64em) {/* md */
+    #big-g .feature .center-text {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    #big-g .feature-item::before {
+        content: none !important;
+    }
+
+    #big-g .main-title {
+        margin-bottom: 45px;
+    }
+}
+
+@media only screen and (max-width: 48em) {/* sm */
+    #big-g .main-title {
+        margin-bottom: 0;
+    }
+
+    #big-g .feature-s2 .feature-item,
+    #big-g .feature-s2 .feature-item:first-child {
+        margin-top: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    opinions
+\*--------------------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+    #opinions .carousel-cell {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #opinions {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    #submit-button {
+        font-size: 20px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    secureShopping
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 64em) {/* sm */
+    #secureShopping .opt-con {
+        width: 100%;
+    }
+
+    #secureShopping ul li img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+
+/*--------------------------------------------------------*\
+    order
+\*--------------------------------------------------------*/
+
+@media only screen and (max-width: 550px) {
+    #countdown .container .content .countdown {
+        margin: 0 0 50px 0;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #countdown .container .content .text {
+        border-left: none;
+    }
+}
